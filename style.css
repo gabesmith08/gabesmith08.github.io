@@ -16,15 +16,16 @@ body {
     letter-spacing: .1rem;
     background: rgba(0 ,0, 0, 0.6)!important;
 }
-
-.navbar-brand img {
-    height: 2rem;
+.navbar-brand {
+    height: 4.6rem;
+    color: white;
+    font-size: 43px;
+    /*font-family: 'Inknut Antiqua', serif;*/
+    font-family: 'Sonsie One', cursive;
 }
-
 .navbar-nav li {
     padding-right: .7rem;
 }
-
 /* nav word link colors */
 .navbar-dark .navbar-nav .nav-link {
     color: white;
@@ -32,12 +33,28 @@ body {
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: hsl(56, 100%, 50%)
+    color: hsl(219, 42%, 48%)
     /* color: #1ebba3; */
 }
 
 
 /*--- Landing Page ---*/
+
+.home-inner {
+    background-image: url(img/computers.png);
+}
+/* WELCOME TO MY SITE */
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+
+
 
 
 /*============ BOOTSTRAP BREAK POINTS:
