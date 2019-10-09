@@ -52,14 +52,17 @@ body {
     z-index: 1;
     color: white;
     text-transform: uppercase;
-    text-shadow: .1rem .1rem .9rem;
 }
 .caption h1 {
     font-size: 3.8rem;
     font-weight: 700;
     letter-spacing: .3rem;
-    text-shadow: .1rem .1rem .8rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2.3rem;
+    text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+}
+.btn-lg {
+    padding: .6rem 1.3rem;
+    font-size: 1.1rem;
 }
 
 
