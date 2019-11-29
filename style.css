@@ -42,7 +42,7 @@ html {
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: hsl(220, 36%, 50%)
+    color:hsl(220, 53%, 69%);
     /* color: #1ebba3; */
 }
 
@@ -73,7 +73,16 @@ html {
     padding: .6rem 1.3rem;
     font-size: 1.1rem;
 }
-
+.propic {
+    border-radius: 50%;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    display: block;
+    margin: auto;
+    border: 4px inset hsl(220, 36%, 50%);
+}
 
 
 
