@@ -5,7 +5,9 @@ body {
     font-family: 'Lato', sans-serif;
     color: black;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
 
 /*--- Navigation ---*/
 
