@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700&display=swap');
 
+
 body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
@@ -9,6 +10,7 @@ html {
     scroll-behavior: smooth;
   }
 
+  
 /*--- Navigation ---*/
 
 .navbar {
@@ -28,14 +30,19 @@ html {
 .navbar-nav li {
     padding-right: .7rem;
 }
-/* nav word link colors */
+/* nav links colors and faders */
 .navbar-dark .navbar-nav .nav-link {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
     color: white;
     padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color: hsl(219, 42%, 48%)
+    color: hsl(220, 36%, 50%)
     /* color: #1ebba3; */
 }
 
