@@ -7,7 +7,7 @@ body {
     color: black;
 }
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
   }
 
   
@@ -36,23 +36,27 @@ html {
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
-    transition:.5s;
+    transition:.6s;
     color: white;
     padding-top: .8rem;
 }
 .navbar-dark .navbar-nav .nav-link.active,
 .navbar-dark .navbar-nav .nav-link:hover {
-    color:hsl(220, 53%, 69%);
+    color:hsl(220, 61%, 59%);
     /* color: #1ebba3; */
 }
 
 
 /*--- Landing Page ---*/
-
 .home-inner {
     background-image: url(img/computers.png);
 }
-/* WELCOME TO MY SITE */
+.languages-inner {
+    background-image: url(img/bluebackground.png);
+}
+
+
+/*--- Other things ---*/
 .caption {
     width: 100%;
     max-width: 100%;
@@ -81,9 +85,112 @@ html {
     max-height: 300px;
     display: block;
     margin: auto;
-    border: 4px inset hsl(220, 36%, 50%);
+    border: 4px inset hsl(220, 53%, 69%);
+}
+.languages {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 38%;
+    z-index: 1;
+    color: white;
+    text-transform: uppercase;
+}
+.footer-text {
+    font-size: 43px;
+    font-family: 'Sonsie One', cursive;
 }
 
+/*--- about section styling ---*/
+.icons svg.svg-inline--fa {
+    color: hsl(220, 55%, 54%);
+}
+.icons h3 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding-bottom: .4rem;
+}
+.icons p {
+    font-size: 1.1rem;
+}
+.narrow {
+    width: 75%;
+    margin: 1.5rem auto;
+    padding-top: 2rem;
+    font-size: 2.4rem;
+}
+h3.heading {
+    font-size: 1.9rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 1.9rem;
+}
+.about-heading-underline {
+    width: 9rem;
+    height: .1rem;
+    background-color: hsl(220, 55%, 54%);
+    margin: 0 auto; /* centers it */
+}
+.heading-underline {
+    width: 5rem;
+    height: .2rem;
+    background-color: hsl(220, 55%, 54%);
+    margin: 0 auto 2rem; /* centers it */
+}
+.jumbotron {
+    margin-bottom: 0px;
+    padding: 2rem 0 3.5rem;
+    border-radius: 0px;
+}
+.btn-secondary { /* not used rn */
+    border-width: medium;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    padding: .6rem 1.2rem;
+    margin: 1rem;
+    color: white;
+    background-color: hsl(220, 53%, 69%);
+    border-color: hsl(220, 53%, 69%);
+}
+.btn-secondary:hover { /* not used rn */
+    background-color: hsl(220, 28%, 43%);
+    border-color: hsl(220, 28%, 43%);
+}
+.fa-github-square {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    color: hsl(220, 55%, 54%);
+}
+.fa-github-square:hover {
+    color: black;
+}
+.fa-linkedin {
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+    color: hsl(220, 55%, 54%);
+}
+.fa-linkedin:hover {
+    color: black;
+}
+
+/*--- Projects section ---*/
+.fixed-background {
+    background-image: url(img/faded.png);
+    z-index: -1; /* enables words to be over background image */
+}
+.fixed-background h3 {
+
+}
+.fixed-background p {
+
+}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
