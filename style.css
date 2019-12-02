@@ -51,9 +51,6 @@ html {
 .home-inner {
     background-image: url(img/computers.png);
 }
-.languages-inner {
-    background-image: url(img/bluebackground.png);
-}
 
 
 /*--- Other things ---*/
@@ -182,15 +179,23 @@ h3.heading {
 
 /*--- Projects section ---*/
 .fixed-background {
-    background-image: url(img/faded.png);
+    background-image: url(img/codecloud.png);
     z-index: -1; /* enables words to be over background image */
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.dark {
+    background-color: rgba(0, 0, 0, 0.57);
+    color: white;
+    padding: 7rem 2rem;
 }
 .fixed-background h3 {
-
+    margin-bottom: 1.3rem;
 }
-.fixed-background p {
 
-}
 
 
 /*============ BOOTSTRAP BREAK POINTS:
