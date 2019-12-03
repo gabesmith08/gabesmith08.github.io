@@ -132,7 +132,7 @@ h3.heading {
     width: 5rem;
     height: .2rem;
     background-color: hsl(220, 55%, 54%);
-    margin: 0 auto 2rem; /* centers it */
+    margin: 0 auto 3.5rem; /* centers it */
 }
 .jumbotron {
     margin-bottom: 0px;
@@ -193,7 +193,13 @@ h3.heading {
     padding: 7rem 2rem;
 }
 .fixed-background h3 {
-    margin-bottom: 1.3rem;
+    margin-bottom: .7rem;
+}
+.project-top {
+    margin-top: -2rem;
+}
+.icons-top-space {
+    margin-bottom: 3rem;
 }
 
 
