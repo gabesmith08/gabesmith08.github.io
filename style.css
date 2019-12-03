@@ -186,9 +186,10 @@ h3.heading {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-position: center center;
 }
 .dark {
-    background-color: rgba(0, 0, 0, 0.57);
+    background-color: rgba(0, 0, 0, 0.60);
     color: white;
     padding: 7rem 2rem;
 }
