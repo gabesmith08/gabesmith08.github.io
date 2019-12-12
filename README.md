@@ -1,2 +1,2 @@
 # gabesmith08.github.io
- website portfolio repo
+ Personal website portfolio repo
