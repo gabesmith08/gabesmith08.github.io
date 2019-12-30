@@ -215,6 +215,20 @@ h3.heading {
 }
 
 
+/*--- Contact Section ---*/
+footer {
+    background-color: #52585d;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+hr.socket {
+    width: 100%;
+    border-top: .2rem solid #666b72;
+    margin-top: 3rem;
+}
+
+
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 
