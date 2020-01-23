@@ -92,15 +92,15 @@ html {
     color: white;
     text-transform: uppercase;
 }
-.footer-text {
-    font-size: 43px;
-    font-family: 'Sonsie One', cursive;
-}
 
 
-/*--- about section styling ---*/
+/*--- about section styling (and icons in footer)---*/
 .icons svg.svg-inline--fa {
     color: hsl(220, 55%, 54%);
+}
+h3 {
+    font-size: 2.2rem;
+    font-weight: 500;
 }
 .icons h3 {
     font-size: 1.3rem;
@@ -122,12 +122,12 @@ h3.heading {
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
-/* .RichardSmith-heading-underline {
-    width: 21.5rem;
-    height: .1rem;
+.blockquote-underline {
+    width: 18rem;
+    height: .13rem;
     background-color: hsl(220, 55%, 54%);
-    margin: 0 auto; centers it
-}  */
+    margin: 0 auto 3rem; /* centers it */
+}
 .about-heading-underline {
     width: 5rem;
     height: .15rem;
@@ -160,10 +160,12 @@ h3.heading {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
-    color: hsl(220, 55%, 54%);
+    color: white;
+    font-size: 3rem;
+    margin: 1.2rem .5rem 0 0;
 }
 .fa-github-square:hover {
-    color: black;
+    color: hsl(220, 55%, 54%);
 }
 .fa-linkedin {
     -o-transition:.5s;
@@ -171,10 +173,12 @@ h3.heading {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition:.5s;
-    color: hsl(220, 55%, 54%);
+    color: white;
+    font-size: 3rem;
+    margin: 1.2rem .5rem 0 0;
 }
 .fa-linkedin:hover {
-    color: black;
+    color: hsl(220, 55%, 54%);
 }
 .fa-quote-left {
     color: hsl(220, 55%, 54%);
@@ -223,8 +227,38 @@ footer {
 }
 hr.socket {
     width: 100%;
-    border-top: .2rem solid #666b72;
-    margin-top: 3rem;
+    border-top: .05rem solid #666b72;
+    margin-top: .3rem;
+}
+
+
+/*-- Media Queries (phone and tablet view resizing) --*/
+
+@media (max-width: 767px) {
+    .caption h1 {
+        font-size: 2.2rem;
+        letter-spacing: .15rem;
+        padding-bottom: 2.3rem;
+        text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.6);
+    }
+    .btn-lg {
+        padding: .6rem 1.3rem;
+        font-size: .9rem;
+    }
+    .smartphone-resize {
+        /* figure out how to get this to actually center */
+        position: center;
+    }
+    h3.heading {
+        font-size: 1.6rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+    h3 {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
 }
 
 
